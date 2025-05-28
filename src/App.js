@@ -37,7 +37,7 @@ const App = () => {
             <div className="App TodoList">
               <div className="header1">
                 <h1>Todo Item List</h1>
-                {/* Removed empty anchor for accessibility */}
+                {/* Removed empty anchor completely */}
               </div>
               <TodoList todos={todos} onDelete={handleDelete} onEdit={handleEdit} />
             </div>

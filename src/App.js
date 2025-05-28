@@ -37,8 +37,7 @@ const App = () => {
             <div className="App TodoList">
               <div className="header1">
                 <h1>Todo Item List</h1>
-                {/* Removed empty anchor */}
-                {/* Or replace with a button if needed */}
+                {/* Removed empty anchor for accessibility */}
               </div>
               <TodoList todos={todos} onDelete={handleDelete} onEdit={handleEdit} />
             </div>
